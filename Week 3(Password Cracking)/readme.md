@@ -10,14 +10,14 @@ The primary objective of this week's internship was to gain hands-on experience 
 
 - 🐧 John the Ripper (Kali Linux)
 - 🌐 Browser-based password-cracking tools
-- 🔍 Online Hash Tool ([Add URL Here])
+- 🔍 [Online Hash Tool](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php)
 - 📚 Custom Wordlists
 
 ---
 
 ## 📸 Lab Screenshot
 
-![Password Cracking Lab](example.png)
+![Password Cracking Lab](Screenshot_2026-09-26_11_42_55.png)
 
 ---
 
@@ -29,7 +29,7 @@ The first approach involved using **John the Ripper** on Kali Linux.
 
 1. Extracted and obtained the PDF hash.
 2. Used an online hash tool to analyze the hash format.  
-   🔗 **Reference:** [https://networkwalks.com/hash-calculator/]
+   🔗 **Reference:** [Networkwalks](https://networkwalks.com/hash-calculator/)
 3. Saved the extracted hash into a text file.
 4. Loaded the hash file into John the Ripper.
 5. John the Ripper successfully recovered the password and revealed the correct result.
